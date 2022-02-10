@@ -1,0 +1,383 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size:14px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  overflow-x: hidden;
+  background-color: #F2F2F2;
+  color: #101216;
+}
+
+a:hover{ color:inherit; text-decoration:none; }
+a{ color:inherit; text-decoration: none;}
+li{ list-style: none;}
+
+.flex{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.god-hand{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.c-flex{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.c-relative{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.cover{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bgcover{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input,
+textarea,
+button{
+  border-radius: 0px;
+  background: none;
+  box-shadow: none;
+  border: 0px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus,
+*:focus{
+    outline: none;
+}
+
+.container{
+  width: calc(100% - 60px);
+  max-width: 1073px;
+  margin: 0 auto;
+}
+
+.lcon{
+  max-width: 1155px;
+}
+
+.scon{
+  max-width: 1086px;
+}
+
+.noselect {
+  -webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
+}
+
+/* ============= */
+/* Lets ROCK   */
+/* ========  */
+
+
+#mainmobile{
+  padding: 73px 30px 80px;
+  box-sizing: border-box;
+}
+.bio figure{
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+  background-color: grey;
+  overflow: hidden;
+  position: relative;
+}
+.profilepict{
+  position: relative;
+}
+.mobilelogo{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(40%,40%);
+}
+.bio figcaption{
+  padding-left: 25px;
+}
+.bio h1{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+.bio p{
+  margin-bottom: 7px;
+}
+
+.bio span{
+  align-items: center;
+  color: #828384;
+}
+.bio span img{
+  margin-right: 9px;
+}
+.bio{
+  align-items: center;
+  margin-bottom: 46px;
+}
+.mainhead{
+  margin-bottom: 30px;
+}
+.title{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 20px;
+  color: #A51C30;
+}
+.esoc{
+  margin-bottom: 15px;
+  align-items: center;
+}
+.esoc figure{
+  width: 50px;
+  height: 50px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+.esoc figcaption{
+  padding-left: 15px;
+}
+.esoc h3{
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.socmed,
+.contentlist,
+.timelinecontent{
+  margin-bottom: 30px;
+}
+.cl_{
+  margin-bottom: 15px;
+}
+.cl_ h3{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.contentcl{
+  color: #909090;
+}
+.contentcl ul{
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+.contentcl li{
+  margin-bottom: 5px;
+  list-style: disc;
+}
+.timelinecontent{
+  position: relative;
+}
+.timelinecontent:after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  left: 10px;
+  width: 2px;
+  height: 100%;
+  background-color: #D8D9D9;
+  z-index: 1;
+}
+.timelinecontent li{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+  position: relative;
+  padding-left: 50px;
+}
+.timelinecontent li:before{
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #727478;
+  z-index: 3;
+}
+.timelinecontent li:after,
+.timelinecontent li:first-child:after,
+.timelinecontent li:last-child:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10px;
+  transform: translateX(-50%);
+  width: 10px;
+  height: calc(50% + 12.5px);
+  background-color: #F2F2F2;
+  z-index: 2;
+}
+.timelinecontent li:last-child:after{
+  top: auto;
+  bottom: 0;
+}
+.timelinecontent li:after{
+  height: 25px;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.titlecontent p{
+  margin-top: 5px;
+}
+.titlecontent span{
+  display: block;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.titlecontent{
+  margin-bottom: 10px;
+}
+.contentcl h4{
+  margin: 15px 0 5px;
+  color: #101216; 
+}
+.marbot30 .cl_{
+  margin-bottom: 30px;
+}
+.contentcl ul ul{
+  padding-left: 30px;
+}
+.conlang{
+  justify-content: space-between;
+  width: 100%;
+}
+.conlang p{
+  text-align: center;
+  width: min-content;
+}
+.ava-d,
+.bio .about,
+.logo{
+  display: none;
+}
+/* ============= */
+/* RESPONSIVE  */
+/* ========  */
+
+@media (min-width: 768px){
+  .socmed{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .esoc{
+    width: calc(100% / 3);
+  }
+  .bio figure{
+    width: 150px;
+    height: 150px;
+  }
+  .conlang{
+    justify-content: flex-start;
+  }
+  .conlang p{
+    margin-right: 55px;
+  }
+  body{
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1280px){
+  .ava-m,
+  .mobilelogo{
+    display: none;
+  }
+  .ava-d,
+  .logo{
+    display: block;
+  }
+  .logo{
+    margin-bottom: 40px;
+  }
+  #mainmobile{
+    max-width: 1189px;
+    margin: 0 auto;
+  }
+  .title{
+    font-size: 26px;
+  }
+  body{
+    line-height: 26px;
+  }
+  .esoc figure{
+    width: 65px;
+    height: 65px;
+  }
+  .bio figure{
+    width: 350px;
+    min-width: 350px;
+    height: 500px;
+  }
+  .bio h1{
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 10px;
+  }
+  .bio p{
+    font-size: 18px;
+    margin-bottom: 11px;
+  }
+  .about{
+    display: none;
+  }
+  .bio .about{
+    display: block;
+    margin-top: 35px;
+    max-width: 664px;
+  }
+  .bio figcaption{
+    padding-left: 60px;
+  }
+  .cl_ h3,
+  .timelinecontent li b,
+  .contentcl h4{
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+/*#contact-info Contact Info
+#core-skills Core Skills
+#education Education
+#professional-experience Professional Experience
+#most-valuable-projects Most Valuable Projects
+#added-skills Added Skills
+#languages Languages*/

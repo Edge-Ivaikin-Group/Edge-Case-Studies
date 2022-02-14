@@ -284,7 +284,8 @@ button:focus,
 }
 .ava-d,
 .bio .about,
-.logo{
+.logo,
+#maindesktop{
   display: none;
 }
 /* ============= */
@@ -381,3 +382,179 @@ button:focus,
 #most-valuable-projects Most Valuable Projects
 #added-skills Added Skills
 #languages Languages*/
+
+/*DESKTOP VERSION*/
+@media (min-width: 1024px){
+  .dst .esoc figure{
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    box-shadow: unset;
+  }
+  .dst{
+    box-sizing: border-box;
+        padding-right: 270px;
+        padding-left: 2px;
+  }
+  #mainmobile{
+    display: none;
+  }
+  #maindesktop{
+    display: block;
+    margin: 0 auto;
+    max-width: 1080px;
+    width: calc(100% - 80px);
+    padding: 69px 0 80px;
+  }
+  /*sama kek atas*/
+  .titleline h2:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 99%;
+    height: 1px;
+    background-color: #16CDFC;
+    top: 28px;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+  }
+  /*.titleline h2.b_:after{
+    top: 26%;
+  }*/
+  body{
+    background-color: white;
+  }
+
+  .titleline{
+    position: relative;
+    margin-bottom: 23px;
+  }
+  .titleline h2{
+    font-size: 34px;
+    line-height: normal;
+    width: max-content;
+    padding-right: 20px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    background-color: white;
+    /*position: relative;*/
+  }
+  .titleline h2.b_{
+    color: #16CDFC;
+  }
+  .bluectn p{
+    color: #16CDFC;
+  }
+  .herodesktop{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .bigtit{
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 20px;
+  }
+  .subtit{
+    color: #16CDFC;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .ncontent li{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding-left: 35px;
+    position: relative;
+  }
+  .ncontent li:before{
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #16CDFC;
+  }
+  .ncontent li ul li:before{
+    border-radius: 0;
+    width: 12px;
+    height: 2px;
+    top: 12px;
+  }
+  .ncontent{
+    margin-bottom: 50px;
+  }
+  .tnstack{
+    width: max-content;
+    margin-left: auto;
+    margin-top: 12px;
+    align-items: center;
+    min-width: 40%;
+  }
+  .tnstack img{
+    margin-right: 15px;
+  }
+  .stackct h3{
+    font-weight: 300;
+    color: #16CDFC;
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .listgreet{
+    margin-top: 10px;
+  }
+  .listgreet p{
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #16CDFC;
+  }
+  .listgreet p:last-child{
+    border-right: 0px;
+  }
+  .toptstack .tnstack{
+    transform: translateY(-34px);
+  }
+  .date{
+    display: block;
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 13px;
+  }
+  .bottompage{
+    margin-top: 15px;
+    padding-top: 55px;
+    border-top: 1px solid #16CDFC;
+  }
+  .ebtmm h2{
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .ebtmm h2:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+    width: 55px;
+    height: 1px;
+    background-color: #16CDFC;
+  }
+  .ebtmm{
+    padding-right: 55px;
+  }
+  .ebtmm:last-child{
+    padding-right: 0px;
+  }
+  .ebtmm span{
+    display: block;
+    font-size: 21px;
+    font-weight: 300;
+    color: #16CDFC;
+    margin-bottom: 5px;
+  }
+  .ebtmm p{
+    margin-bottom: 15px;
+  }
+}

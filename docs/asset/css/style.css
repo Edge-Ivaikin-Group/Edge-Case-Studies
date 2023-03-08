@@ -111,7 +111,7 @@ button:focus,
 /* ========  */
 
 
-#mainmobile {
+#main {
     padding: 73px 30px 80px;
     box-sizing: border-box;
 }
@@ -130,10 +130,9 @@ button:focus,
 }
 
 .mobilelogo {
-    position: absolute;
     right: 0;
     bottom: 0;
-    transform: translate(40%, 40%);
+    width: 120px;
 }
 
 .bio figcaption {
@@ -163,7 +162,7 @@ button:focus,
 
 .bio {
     align-items: center;
-    margin-bottom: 46px;
+    margin-bottom: 8px;
 }
 
 .mainhead {
@@ -175,7 +174,7 @@ button:focus,
     font-size: 22px;
     line-height: 33px;
     margin-bottom: 20px;
-    color: #A51C30;
+    color: #FD2E61;
 }
 
 .esoc {
@@ -333,7 +332,6 @@ button:focus,
     width: min-content;
 }
 
-
 /* ============= */
 /* RESPONSIVE  */
 /* ========  */
@@ -378,7 +376,7 @@ button:focus,
         margin-bottom: 40px;
     }
 
-    #mainmobile {
+    #main {
         max-width: 1189px;
         margin: 0 auto;
     }
@@ -454,7 +452,7 @@ button:focus,
         padding-left: 2px;
     }
 
-    #maindesktop {
+    #main {
         display: block;
         margin: 0 auto;
         max-width: 1080px;
@@ -721,4 +719,108 @@ button:focus,
 
 .cta {
     margin-bottom: 30px;
+}
+
+/**
+    Introduction
+ */
+.benefits {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+.benefits {
+    margin: 50px 0;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.benefit {
+    margin: 20px;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.benefit-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.benefit-icon img {
+    height: 50px;
+    width: 50px;
+}
+
+.benefit-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.benefit-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+.benefits {
+    margin: 2rem 0;
+    list-style: none;
+    padding-left: 0;
+    text-align: justify;
+}
+
+.benefits li {
+    margin-bottom: 1.5rem;
+}
+
+.benefits strong {
+    font-weight: bold;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cta .button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #2D6BE1;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.cta .button:hover {
+    background-color: #1C4287;
+}
+
+.h1-partner {
+    line-height: 34px;
 }

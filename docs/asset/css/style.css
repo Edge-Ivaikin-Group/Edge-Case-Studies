@@ -11,7 +11,7 @@ body {
     font-weight: 400;
     overflow-x: hidden;
     background-color: #F2F2F2;
-    color: #101216;
+    color: #13294B;
 }
 
 a:hover {
@@ -186,7 +186,7 @@ button:focus,
 .esoc figure {
     width: 50px;
     height: 50px;
-    background: #FFFFFF;
+    background: #F4F1EF;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
     border-radius: 12px;
 }
@@ -312,7 +312,7 @@ button:focus,
 
 .contentcl h4 {
     margin: 15px 0 5px;
-    color: #101216;
+    color: #13294B;
 }
 
 .marbot30 .cl_ {
@@ -488,7 +488,7 @@ button:focus,
         left: 50%;
         width: 99%;
         height: 1px;
-        background-color: #16CDFC;
+        background-color: #FD2E61;
         top: 28px;
         transform: translate(-50%, -50%);
         z-index: -1;
@@ -518,11 +518,11 @@ button:focus,
     }
 
     .titleline h2.b_ {
-        color: #16CDFC;
+        color: #FD2E61;
     }
 
     .bluectn p {
-        color: #16CDFC;
+        color: #FD2E61;
     }
 
     .herodesktop {
@@ -539,7 +539,7 @@ button:focus,
     }
 
     .subtit {
-        color: #16CDFC;
+        color: #FD2E61;
         font-weight: 300;
         font-size: 22px;
         line-height: 32px;
@@ -560,7 +560,7 @@ button:focus,
         width: 7px;
         height: 7px;
         border-radius: 50%;
-        background-color: #16CDFC;
+        background-color: #FD2E61;
     }
 
     .ncontent li ul li:before {
@@ -588,7 +588,7 @@ button:focus,
 
     .stackct h3 {
         font-weight: 300;
-        color: #16CDFC;
+        color: #FD2E61;
         font-size: 26px;
         line-height: 36px;
     }
@@ -600,7 +600,7 @@ button:focus,
     .listgreet p {
         margin-right: 15px;
         padding-right: 15px;
-        border-right: 1px solid #16CDFC;
+        border-right: 1px solid #FD2E61;
     }
 
     .listgreet p:last-child {
@@ -621,7 +621,7 @@ button:focus,
     .bottompage {
         margin-top: 15px;
         padding-top: 55px;
-        border-top: 1px solid #16CDFC;
+        border-top: 1px solid #FD2E61;
     }
 
     .ebtmm h2 {
@@ -636,7 +636,7 @@ button:focus,
         bottom: -11px;
         width: 55px;
         height: 1px;
-        background-color: #16CDFC;
+        background-color: #FD2E61;
     }
 
     .ebtmm {
@@ -651,7 +651,7 @@ button:focus,
         display: block;
         font-size: 21px;
         font-weight: 300;
-        color: #16CDFC;
+        color: #FD2E61;
         margin-bottom: 5px;
     }
 

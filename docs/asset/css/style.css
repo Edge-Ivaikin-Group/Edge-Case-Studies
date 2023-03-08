@@ -369,11 +369,6 @@ button:focus,
 }
 
 @media (min-width: 1280px) {
-    .ava-m,
-    .mobilelogo {
-        display: none;
-    }
-
     .ava-d,
     .logo {
         display: block;
@@ -418,10 +413,6 @@ button:focus,
         margin-bottom: 11px;
     }
 
-    .about {
-        display: none;
-    }
-
     .bio .about {
         display: block;
         margin-top: 35px;
@@ -461,10 +452,6 @@ button:focus,
         box-sizing: border-box;
         padding-right: 270px;
         padding-left: 2px;
-    }
-
-    #mainmobile {
-        display: none;
     }
 
     #maindesktop {

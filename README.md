@@ -14,4 +14,4 @@ Edge Hyperautomation helped Aptiv, a leading technology company, to boost their 
 
 At Edge, we are committed to delivering value to our clients and helping them achieve their goals. Our hyperautomation solutions are designed to be scalable and flexible, so they can adapt to the changing needs of our clients. Whether you're a startup, SME, or enterprise, we have the tools and expertise to help you succeed.
 
-To learn more about our case studies and how we can help your business grow, visit our website at https://edgehyperautomation.com/case-studies/.
+To learn more about our case studies and how we can help your business grow, visit our website at https://success.edgeexperts.co/.

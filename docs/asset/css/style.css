@@ -491,6 +491,7 @@ div#myTabContent-working-edge .tab-pane h2 {
     color: #000;
     font-size: 24px;
     font-weight: 400;
+    display: block;
 }
 .contact-box {
     display: flex;
@@ -917,20 +918,19 @@ div#myTabContent-skills .tab-pane {
     line-height: 34px;
 }
 .contact-box-2-info a {
-    opacity: 0.6;
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
+    color: #bbc5d6;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
 }
-.contact-box-2:hover a{
+/* .contact-box-2:hover a{
     animation: anim2 .8s ease infinite;
     -webkit-animation: anim2 .8s ease infinite;
-}
+} */
 @keyframes anim2{
     0%{
         opacity: 0.6;

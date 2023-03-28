@@ -6,6 +6,9 @@
 .roboto{
     font-family: 'Roboto', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-size: 16px;
     font-weight: 400;
@@ -43,6 +46,14 @@ a:hover{
     font-size: 24px;
     color: #000;
     font-weight: 400;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.menu li a:hover{
+    color: #fc3d54;
 }
 .get-in-touch-btn {
     font-size: 23px;
@@ -54,6 +65,9 @@ a:hover{
     color: #fff;
     border-radius: 31px;
     width: 168px;
+}
+.get-in-touch-btn:hover {
+    color: #fff;
 }
 .banner-bg-wrapper {
     background: #F4F1EF;
@@ -256,6 +270,13 @@ ul#myTab-working-edge li {
     border-radius: 31px;
     width: 300px;
     font-weight: 400;
+    transition: all .3s ease;
+}
+.book-free-consultation-btn:hover {
+    transform: scale(.9);
+}
+.book-free-consultation-btn:hover{
+    color:#fff
 }
 .we-author img {
     width: 72px;
@@ -900,6 +921,26 @@ div#myTabContent-skills .tab-pane {
     font-size: 16px;
     font-weight: 400;
     color: #fff;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.contact-box-2:hover a{
+    animation: anim2 .8s ease infinite;
+    -webkit-animation: anim2 .8s ease infinite;
+}
+@keyframes anim2{
+    0%{
+        opacity: 0.6;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.6;
+    }
 }
 .contact-box-2-icon {
     background: #FD2E61;
@@ -1057,6 +1098,14 @@ section.booking-sec {
 }
 .f-social-links ul li a {
     width: 53px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.f-social-links ul li a:hover {
+    transform: scale(.85);
 }
 .d-f {
     display: flex;
@@ -1090,4 +1139,84 @@ section.booking-sec {
 }
 .f-copy,.f-logo,.f-policy-links {
     margin-top: 80px;
+}
+iframe#launcher {
+    bottom: 50px !important;
+}
+
+
+
+
+.btnA{
+    position: relative;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+}
+
+.btnA:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+}
+
+.btnA:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  animation: clickA .2s 1;
+  -webkit-animation: clickA .2s 1;
+}
+
+
+.btnA::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  background:#fff;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn-white::after {
+  background: #fff;
+}
+
+.btnA:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+  -webkit-transform: scaleX(1.4) scaleY(1.6);
+  -moz-transform: scaleX(1.4) scaleY(1.6);
+  -ms-transform: scaleX(1.4) scaleY(1.6);
+  -o-transform: scaleX(1.4) scaleY(1.6);
+}
+
+
+
+
+
+@keyframes clickA{
+    0%{
+        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+        -moz-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+        -o-transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
 }

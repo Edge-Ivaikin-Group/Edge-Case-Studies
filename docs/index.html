@@ -13,6 +13,7 @@
     <!-- css links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="asset/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="asset/css/animate.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="asset/css/style.css?v=1.0.0"/>
     <link rel="stylesheet" href="asset/css/media.css"/>
@@ -219,20 +220,41 @@
                           <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav menu m-auto">
                               <li class="nav-item">
-                                <a class="nav-link roboto" href="#">Benefits</a>
+                                <a class="nav-link roboto menu-nav" href="#benefit">Benefits</a>
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link roboto" href="#">Our Services</a>
+                                <a class="nav-link roboto menu-nav" href="#service">Our Services</a>
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link roboto" href="#">Case Studies</a>
+                                <a class="nav-link roboto menu-nav" href="#case-studies">Case Studies</a>
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link roboto" href="#">Projects</a>
+                                <a class="nav-link roboto menu-nav" href="#projects">Projects</a>
                               </li>
                             </ul>
                             <div class="-header-btn">
-                                <a href="" class="get-in-touch-btn">Get in touch</a>
+                                <a href="" class="get-in-touch-btn btnA" data-bs-toggle="modal" data-bs-target="#modal-01">Get in touch</a>
+
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="modal-01" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                        <div class="modal-calendy">
+                                            <!-- Calendly inline widget begin -->
+                                            <div class="calendly-inline-widget calendy-cus-design-2"
+                                            data-url="https://calendly.com/tim-ivaikin/60min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=f4f1ef&text_color=13294b&primary_color=fd2e61"
+                                            style="min-width:100%;height:705px;border-radius: 28px;"></div>
+                                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
                             </div>
                           </div>
                         </div>
@@ -249,12 +271,12 @@
                             <p>Transform the way businesses operate. Our solutions streamline processes, increase efficiency, and maximize productivity, delivering measurable results and accelerating growth for our clients.</p>
                             <div class="banner-btns">
                                 <div class="btn-wrapper">
-                                    <a href="#" class="our-service-btn">
+                                    <a href="" class="our-service-btn btnA">
                                         Our Services
                                     </a>
                                 </div>
                                 <div class="btn-wrapper">
-                                    <a href="#" class="case-studies-btn">
+                                    <a href="" class="case-studies-btn btnA">
                                         Case Studies
                                     </a>
                                 </div>
@@ -263,26 +285,26 @@
                     </div>
                     <div class="col-md-7 align-self-center">
                         <div class="banner-img">
-                            <div class="banner-icon-box bib-1 position-absolute">
+                            <div class="banner-icon-box bib-1 position-absolute wow fadeInUp">
                                 <div class="bib-icon">
                                     <img src="asset/img/bib1.png" class="img-fluid" alt="">
                                 </div>
-                                <h3>Personalized</h3>
-                                <h6>Solutions</h6>
+                                <h3>Mobile App</h3>
+                                <h6>Development</h6>
                             </div>
-                            <div class="banner-icon-box bib-2 position-absolute">
+                            <div class="banner-icon-box bib-2 position-absolute wow fadeInUp" data-wow-delay=".5s">
                                 <div class="bib-icon">
                                     <img src="asset/img/bib1.png" class="img-fluid" alt="">
                                 </div>
-                                <h3>Increase</h3>
-                                <h6>Efficiency</h6>
+                                <h3>Cloud Software</h3>
+                                <h6>Development</h6>
                             </div>
-                            <div class="banner-icon-box bib-3 position-absolute">
+                            <div class="banner-icon-box bib-3 position-absolute wow fadeInUp" data-wow-delay=".9s">
                                 <div class="bib-icon">
                                     <img src="asset/img/bib1.png" class="img-fluid" alt="">
                                 </div>
-                                <h3>Scalability</h3>
-                                <h6>Potential</h6>
+                                <h3>Machine Learning</h3>
+                                <h6>& AI</h6>
                             </div>
                             <img src="asset/img/banner.png" class="img-fluid" alt="">
                         </div>
@@ -302,37 +324,32 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row wow fadeInUp" data-wow-delay=".5s">
                 <div class="col-md-10 offset-md-1">
                     <div class="partner-brand-slider owl-carousel">
                         <!-- single item -->
-                        <div class="pb-single-slider-item">
+                        <div class="pb-single-slider-item psi-1">
                             <img src="asset/img/p1.png" class="img-fluid" alt="">
                         </div>
                         <!-- single item -->
                         <!-- single item -->
-                        <div class="pb-single-slider-item">
+                        <div class="pb-single-slider-item psi-2">
                             <img src="asset/img/p2.png" class="img-fluid" alt="">
                         </div>
                         <!-- single item -->
                         <!-- single item -->
-                        <div class="pb-single-slider-item">
-                            <img src="asset/img/p1.png" class="img-fluid" alt="">
+                        <div class="pb-single-slider-item psi-3">
+                            <img src="asset/img/ironfx.svg" class="img-fluid" alt="">
                         </div>
                         <!-- single item -->
                         <!-- single item -->
-                        <div class="pb-single-slider-item">
-                            <img src="asset/img/p2.png" class="img-fluid" alt="">
+                        <div class="pb-single-slider-item psi-4">
+                            <img src="asset/img/ij.svg" class="img-fluid" alt="">
                         </div>
                         <!-- single item -->
                         <!-- single item -->
-                        <div class="pb-single-slider-item">
-                            <img src="asset/img/p1.png" class="img-fluid" alt="">
-                        </div>
-                        <!-- single item -->
-                        <!-- single item -->
-                        <div class="pb-single-slider-item">
-                            <img src="asset/img/p2.png" class="img-fluid" alt="">
+                        <div class="pb-single-slider-item psi-5">
+                            <img src="asset/img/sm2svg.svg" class="img-fluid" alt="">
                         </div>
                         <!-- single item -->
                     </div>
@@ -343,7 +360,7 @@
     <!-- partner brand -->
 
     <!-- benefits -->
-    <section class="working-with-edge">
+    <section id="benefit" class="working-with-edge">
         <div class="working-with-edge-wrpper">
             <div class="container-xxxl">
                 <div class="row">
@@ -382,7 +399,7 @@
                                         <img src="asset/img/author.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="book-consultation-btn-wrapper">
-                                        <a href="#" class="book-free-consultation-btn roboto">Book a Free Consultation</a>
+                                        <a href="#booking-sec" class="book-free-consultation-btn roboto ">Book a Free Consultation</a>
                                     </div>
                                 </div>
                             </div>
@@ -399,7 +416,7 @@
                                         <img src="asset/img/author.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="book-consultation-btn-wrapper">
-                                        <a href="#" class="book-free-consultation-btn roboto">Book a Free Consultation</a>
+                                        <a href="#booking-sec" class="book-free-consultation-btn roboto ">Book a Free Consultation</a>
                                     </div>
                                 </div>
                             </div>
@@ -416,7 +433,7 @@
                                         <img src="asset/img/author.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="book-consultation-btn-wrapper">
-                                        <a href="#" class="book-free-consultation-btn roboto">Book a Free Consultation</a>
+                                        <a href="#booking-sec" class="book-free-consultation-btn roboto ">Book a Free Consultation</a>
                                     </div>
                                 </div>
                             </div>
@@ -433,7 +450,7 @@
                                         <img src="asset/img/author.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="book-consultation-btn-wrapper">
-                                        <a href="#" class="book-free-consultation-btn roboto">Book a Free Consultation</a>
+                                        <a href="#booking-sec" class="book-free-consultation-btn roboto ">Book a Free Consultation</a>
                                     </div>
                                 </div>
                             </div>
@@ -450,7 +467,7 @@
                                         <img src="asset/img/author.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="book-consultation-btn-wrapper">
-                                        <a href="#" class="book-free-consultation-btn roboto">Book a Free Consultation</a>
+                                        <a href="#booking-sec" class="book-free-consultation-btn roboto ">Book a Free Consultation</a>
                                     </div>
                                 </div>
                             </div>
@@ -464,7 +481,7 @@
     <!-- benefits -->
 
     <!-- services -->
-    <section class="service">
+    <section class="service" id="service">
         <div class="container-xxxl">
             <div class="row">
                 <div class="col-12">
@@ -475,7 +492,7 @@
                 </div>
             </div>
             <div class="row d-none d-md-flex">
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInUp" data-wow-delay=".4s">
                     <div class="service-single-box">
                         <h2 class="poppins">Mobile App Development</h2>
                         <h6 class="roboto">Create app for<br> your business</h6>
@@ -491,7 +508,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInUp" data-wow-delay=".7s">
                     <div class="service-single-box">
                         <h2 class="poppins">Cloud Software<br> Development</h2>
                         <h6 class="roboto">Run cloud infra to solve<br> business problems</h6>
@@ -507,7 +524,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInUp" data-wow-delay=".9s">
                     <div class="service-single-box">
                         <h2 class="poppins">Machine<br> Learning & AI</h2>
                         <h6 class="roboto">Solve business problems<br> with power of AI</h6>
@@ -669,7 +686,7 @@
     <!-- contact -->
     
     <!-- case-studies -->
-    <section class="case-studies">
+    <section class="case-studies" id="case-studies">
         <div class="container-xxxl">
             <div class="row">
                 <div class="col-md-6">
@@ -719,7 +736,7 @@
                     <div class="tab-content" id="myTabContent-case-studies">
                         <!-- tab single item -->
                         <div class="tab-pane fade show active" id="tab-case-studies-1" role="tabpanel">
-                            <h2 class="poppins">Agile Methodology</h2>
+                            <h2 class="poppins">Streamlining Product Development for a Global Retailer</h2>
                             <ul>
                                 <li>
                                     <div class="case-studies-content">
@@ -757,7 +774,7 @@
     
                         <!-- tab single item -->
                         <div class="tab-pane fade" id="tab-case-studies-2" role="tabpanel">
-                            <h2 class="poppins">Agile Methodology</h2>
+                            <h2 class="poppins">Transforming Infrastructure for a FinTech Startup</h2>
                             <ul>
                                 <li>
                                     <div class="case-studies-content">
@@ -765,27 +782,7 @@
                                             <img src="asset/img/check.svg" class="img-fluid" alt="">
                                         </div>
                                         <div class="cs-content">
-                                            Edge partnered with a major global retailer to implement Agile methodologies in their product development process.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            We worked closely with the client's development team to identify bottlenecks and inefficiencies in their existing process and implemented Scrum and Agile methodologies to streamline the development lifecycle.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            The project resulted in a significant increase in product quality and a reduction in time-to-market, resulting in higher customer satisfaction and increased revenue for the client.
+                                            Edge collaborated with a promising FinTech startup to transition their infrastructure to a cloud-native architecture. Our team of cloud experts assessed the client's existing infrastructure, designed a scalable and secure cloud architecture, and migrated their applications and data to the new environment. The cloud-native solution enabled the startup to improve system reliability, reduce operational costs, and swiftly adapt to changing market demands.
                                         </div>
                                     </div>
                                 </li>
@@ -795,7 +792,7 @@
     
                         <!-- tab single item -->
                         <div class="tab-pane fade" id="tab-case-studies-3" role="tabpanel">
-                            <h2 class="poppins">Agile Methodology</h2>
+                            <h2 class="poppins">Revamping a Healthcare Provider's Data Strategy</h2>
                             <ul>
                                 <li>
                                     <div class="case-studies-content">
@@ -803,27 +800,7 @@
                                             <img src="asset/img/check.svg" class="img-fluid" alt="">
                                         </div>
                                         <div class="cs-content">
-                                            Edge partnered with a major global retailer to implement Agile methodologies in their product development process.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            We worked closely with the client's development team to identify bottlenecks and inefficiencies in their existing process and implemented Scrum and Agile methodologies to streamline the development lifecycle.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            The project resulted in a significant increase in product quality and a reduction in time-to-market, resulting in higher customer satisfaction and increased revenue for the client.
+                                            Edge helped a large healthcare provider develop a comprehensive data strategy to improve patient care and streamline operations. Our team of data experts analyzed the client's existing data infrastructure, identified gaps, and devised a robust data management plan. By implementing advanced analytics and critical thinking, the healthcare provider gained valuable insights, leading to improved patient outcomes and operational efficiency.
                                         </div>
                                     </div>
                                 </li>
@@ -832,7 +809,7 @@
                         <!-- tab single item -->
                         <!-- tab single item -->
                         <div class="tab-pane fade" id="tab-case-studies-4" role="tabpanel">
-                            <h2 class="poppins">Agile Methodology</h2>
+                            <h2 class="poppins">Building a Collaborative Culture for a Software Company</h2>
                             <ul>
                                 <li>
                                     <div class="case-studies-content">
@@ -840,27 +817,7 @@
                                             <img src="asset/img/check.svg" class="img-fluid" alt="">
                                         </div>
                                         <div class="cs-content">
-                                            Edge partnered with a major global retailer to implement Agile methodologies in their product development process.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            We worked closely with the client's development team to identify bottlenecks and inefficiencies in their existing process and implemented Scrum and Agile methodologies to streamline the development lifecycle.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            The project resulted in a significant increase in product quality and a reduction in time-to-market, resulting in higher customer satisfaction and increased revenue for the client.
+                                            Edge partnered with a rapidly growing software company to foster a culture of teamwork and collaboration. Our team conducted workshops and training sessions focused on communication, problem-solving, and interpersonal skills. As a result, the company experienced improved employee engagement, a significant reduction in turnover, and accelerated project completion times.
                                         </div>
                                     </div>
                                 </li>
@@ -869,7 +826,7 @@
                         <!-- tab single item -->
                         <!-- tab single item -->
                         <div class="tab-pane fade" id="tab-case-studies-5" role="tabpanel">
-                            <h2 class="poppins">Agile Methodology</h2>
+                            <h2 class="poppins">Empowering a Tech Firm's Management Team</h2>
                             <ul>
                                 <li>
                                     <div class="case-studies-content">
@@ -877,36 +834,17 @@
                                             <img src="asset/img/check.svg" class="img-fluid" alt="">
                                         </div>
                                         <div class="cs-content">
-                                            Edge partnered with a major global retailer to implement Agile methodologies in their product development process.
+                                            Edge worked with a mid-sized tech firm to enhance its management team's leadership and motivational skills. Through customized training programs and coaching sessions, the managers learned to effectively lead, inspire, and empower their teams. The improved leadership and motivation led to higher employee morale, increased productivity, and a more innovative work environment.
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            We worked closely with the client's development team to identify bottlenecks and inefficiencies in their existing process and implemented Scrum and Agile methodologies to streamline the development lifecycle.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            The project resulted in a significant increase in product quality and a reduction in time-to-market, resulting in higher customer satisfaction and increased revenue for the client.
-                                        </div>
-                                    </div>
-                                </li>
+                               
                             </ul>
                         </div>
                         <!-- tab single item -->
                         <!-- tab single item -->
                         <div class="tab-pane fade" id="tab-case-studies-6" role="tabpanel">
-                            <h2 class="poppins">Agile Methodology</h2>
+                            <h2 class="poppins">Optimizing Performance for an Online Retailer</h2>
                             <ul>
                                 <li>
                                     <div class="case-studies-content">
@@ -914,36 +852,17 @@
                                             <img src="asset/img/check.svg" class="img-fluid" alt="">
                                         </div>
                                         <div class="cs-content">
-                                            Edge partnered with a major global retailer to implement Agile methodologies in their product development process.
+                                            Edge assisted a prominent e-commerce retailer in optimizing their platform's performance and user experience. Our team of developers conducted a thorough analysis of the platform's architecture, identified areas for improvement, and implemented targeted enhancements. The optimized platform resulted in a significant increase in conversion rates, reduced page load times, and improved customer satisfaction.
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            We worked closely with the client's development team to identify bottlenecks and inefficiencies in their existing process and implemented Scrum and Agile methodologies to streamline the development lifecycle.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            The project resulted in a significant increase in product quality and a reduction in time-to-market, resulting in higher customer satisfaction and increased revenue for the client.
-                                        </div>
-                                    </div>
-                                </li>
+                               
                             </ul>
                         </div>
                         <!-- tab single item -->
                         <!-- tab single item -->
                         <div class="tab-pane fade" id="tab-case-studies-7" role="tabpanel">
-                            <h2 class="poppins">Agile Methodology</h2>
+                            <h2 class="poppins">Boosting Software Development Efficiency for a Digital Agency</h2>
                             <ul>
                                 <li>
                                     <div class="case-studies-content">
@@ -951,36 +870,17 @@
                                             <img src="asset/img/check.svg" class="img-fluid" alt="">
                                         </div>
                                         <div class="cs-content">
-                                            Edge partnered with a major global retailer to implement Agile methodologies in their product development process.
+                                            Edge collaborated with a digital agency to improve their software development process by implementing Agile and Scrum methodologies. Our team trained the client's developers, project managers, and product owners on Agile principles and Scrum practices. The new approach led to shorter development cycles, increased transparency, and improved collaboration, resulting in higher-quality deliverables and more satisfied clients.
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            We worked closely with the client's development team to identify bottlenecks and inefficiencies in their existing process and implemented Scrum and Agile methodologies to streamline the development lifecycle.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            The project resulted in a significant increase in product quality and a reduction in time-to-market, resulting in higher customer satisfaction and increased revenue for the client.
-                                        </div>
-                                    </div>
-                                </li>
+                                
                             </ul>
                         </div>
                         <!-- tab single item -->
                         <!-- tab single item -->
                         <div class="tab-pane fade" id="tab-case-studies-8" role="tabpanel">
-                            <h2 class="poppins">Agile Methodology</h2>
+                            <h2 class="poppins">Revitalizing Operations for a Manufacturing Company</h2>
                             <ul>
                                 <li>
                                     <div class="case-studies-content">
@@ -988,36 +888,17 @@
                                             <img src="asset/img/check.svg" class="img-fluid" alt="">
                                         </div>
                                         <div class="cs-content">
-                                            Edge partnered with a major global retailer to implement Agile methodologies in their product development process.
+                                            Edge partnered with a manufacturing company to transform its management style and operations. Our team conducted a thorough analysis of the company's existing management practices and implemented a more effective, transparent, and collaborative approach. The revamped management style led to increased employee satisfaction, enhanced operational efficiency, and a significant boost in productivity.
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            We worked closely with the client's development team to identify bottlenecks and inefficiencies in their existing process and implemented Scrum and Agile methodologies to streamline the development lifecycle.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            The project resulted in a significant increase in product quality and a reduction in time-to-market, resulting in higher customer satisfaction and increased revenue for the client.
-                                        </div>
-                                    </div>
-                                </li>
+                               
                             </ul>
                         </div>
                         <!-- tab single item -->
                         <!-- tab single item -->
                         <div class="tab-pane fade" id="tab-case-studies-9" role="tabpanel">
-                            <h2 class="poppins">Agile Methodology</h2>
+                            <h2 class="poppins">Rescuing a Failing IT Project for a Logistics Firm</h2>
                             <ul>
                                 <li>
                                     <div class="case-studies-content">
@@ -1025,36 +906,17 @@
                                             <img src="asset/img/check.svg" class="img-fluid" alt="">
                                         </div>
                                         <div class="cs-content">
-                                            Edge partnered with a major global retailer to implement Agile methodologies in their product development process.
+                                            Edge was brought on board to salvage a failing IT project for a logistics firm. Our team of experts quickly identified the project's issues, developed a new strategy, and persevered through challenges to turn the project around. The successful completion of the project resulted in streamlined logistics processes, reduced operational costs, and increased customer satisfaction for the firm.
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            We worked closely with the client's development team to identify bottlenecks and inefficiencies in their existing process and implemented Scrum and Agile methodologies to streamline the development lifecycle.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            The project resulted in a significant increase in product quality and a reduction in time-to-market, resulting in higher customer satisfaction and increased revenue for the client.
-                                        </div>
-                                    </div>
-                                </li>
+                               
                             </ul>
                         </div>
                         <!-- tab single item -->
                         <!-- tab single item -->
                         <div class="tab-pane fade" id="tab-case-studies-10" role="tabpanel">
-                            <h2 class="poppins">Agile Methodology</h2>
+                            <h2 class="poppins">Modernizing the Tech Stack for a Media Company</h2>
                             <ul>
                                 <li>
                                     <div class="case-studies-content">
@@ -1062,30 +924,11 @@
                                             <img src="asset/img/check.svg" class="img-fluid" alt="">
                                         </div>
                                         <div class="cs-content">
-                                            Edge partnered with a major global retailer to implement Agile methodologies in their product development process.
+                                            Edge worked with a media company to modernize their technology stack and improve system performance. Our team of engineers assessed the current stack, recommended suitable technologies, and implemented the new architecture. The updated technology stack increased system stability, scalability, and performance, enabling the media company to handle growing user demands and stay competitive in the market.
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            We worked closely with the client's development team to identify bottlenecks and inefficiencies in their existing process and implemented Scrum and Agile methodologies to streamline the development lifecycle.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content">
-                                            The project resulted in a significant increase in product quality and a reduction in time-to-market, resulting in higher customer satisfaction and increased revenue for the client.
-                                        </div>
-                                    </div>
-                                </li>
+                                
                             </ul>
                         </div>
                         <!-- tab single item -->
@@ -1097,7 +940,7 @@
     <!-- case-studies -->
 
     <!-- professional-exp -->
-    <section class="professional-exp">
+    <section class="professional-exp" id="professional-exp">
         <div class="professional-exp-wrapper">
             <div class="container-xxxl">
                 <div class="row">
@@ -1117,6 +960,12 @@
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link roboto" data-bs-toggle="tab" data-bs-target="#tab-professional-exp-4" role="tab" aria-selected="false" tabindex="-1">Head of Frontend Department SM2 <span><i class="fa-solid fa-chevron-right"></i></span></button>
                                 </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link roboto" data-bs-toggle="tab" data-bs-target="#tab-professional-exp-5" role="tab" aria-selected="false" tabindex="-1">Aptiv Connected Services <span><i class="fa-solid fa-chevron-right"></i></span></button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link roboto" data-bs-toggle="tab" data-bs-target="#tab-professional-exp-6" role="tab" aria-selected="false" tabindex="-1">International Manufacturer of Auto Parts <span><i class="fa-solid fa-chevron-right"></i></span></button>
+                                </li>
                               </ul>
                         </div>
                     </div>
@@ -1126,8 +975,8 @@
                             <div class="tab-pane fade show active" id="tab-professional-exp-1" role="tabpanel">
                                 <div class="pro-exp-tab-content-heading-wrapper">
                                     <div class="pro-exp-tab-content-heading">
-                                        <h2 class="poppins">Aptiv Connected Services</h2>
-                                        <h3 class="roboto">International manufacturer of auto parts</h3>
+                                        <h2 class="poppins">Software Engineering Manager CitiGroup</h2>
+                                        <h3 class="roboto">Global Investment Bank and Financial Services</h3>
                                     </div>
                                     <div class="pro-exp-tab-content-heading-logo">
                                         <img src="asset/img/Citi.svg" class="img-fluid" alt="">
@@ -1141,7 +990,7 @@
                                                     <img src="asset/img/check.svg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="cs-content pe-content">
-                                                    Ensured the release of an incremental product – a cloud–based Edge IoT management solution for Fleet Services.
+                                                    Managed the development of Investment and Risk projects.
                                                 </div>
                                             </div>
                                         </li>
@@ -1151,7 +1000,7 @@
                                                     <img src="asset/img/check.svg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="cs-content pe-content">
-                                                    As a Technical Team Leader, implemented all Scrum ceremonies, wrote for the team instructions on processes, and prioritized the order of operations, taking into account business needs. Organized regular meetings (individual and group ones), and arranged a mentoring system for team members with an analysis of key growth points.
+                                                    Led the UI / frontend group of the project. Provided the group with the new gRPC-based transport for Citi and CI/CD based on Kubernetes and OpenShift. Arranged the creation of report components for brokers including risk management solutions. Supervised 2 direct subordinates.
                                                 </div>
                                             </div>
                                         </li>
@@ -1161,7 +1010,7 @@
                                                     <img src="asset/img/check.svg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="cs-content pe-content">
-                                                    Organized the creation of a fault-tolerant system and reduced the number of product failures by 80%, by changing the architecture to improve the speed and quality of development.
+                                                    Guided solving complex technical design problems, creation of new solutions using React. Leveraged automation testing methods to increase test coverage and build confidence in Citi's continuous delivery pipeline.
                                                 </div>
                                             </div>
                                         </li>
@@ -1193,30 +1042,11 @@
                                                     <img src="asset/img/check.svg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="cs-content pe-content">
-                                                    Managed the development of Investment and Risk projects.
+                                                    Spearheaded the development of a comprehensive eLearning platform for IJ Global. The platform facilitated seamless online learning experiences for users, incorporating cutting-edge technologies and personalized learning paths.
                                                 </div>
                                             </div>
                                         </li>
-                                        <li>
-                                            <div class="case-studies-content">
-                                                <div class="cs-icon pe-icon">
-                                                    <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="cs-content pe-content">
-                                                    Led the UI / frontend group of the project. Provided the group with the new gRPC-based transport for Citi and CI/CD based on Kubernetes and OpenShift. Arranged the creation of report components for brokers including risk management solutions. Supervised 2 direct subordinates.
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="case-studies-content">
-                                                <div class="cs-icon pe-icon">
-                                                    <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="cs-content pe-content">
-                                                    Guided solving complex technical design problems, creation of new solutions using React. Leveraged automation testing methods to increase test coverage and build confidence in Citi's continuous delivery pipeline.
-                                                </div>
-                                            </div>
-                                        </li>
+                                        
                                     </ul>
                                 </div>
                                 <div class="pro-exp-tab-content-footer">
@@ -1245,30 +1075,11 @@
                                                     <img src="asset/img/check.svg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="cs-content pe-content">
-                                                    Managed the development of Investment and Risk projects.
+                                                    Revolutionized the development process at Notesko by introducing and championing agile methodologies, fostering a culture of continuous improvement, and enhancing collaboration across teams. These improvements led to faster development cycles and increased product quality.
                                                 </div>
                                             </div>
                                         </li>
-                                        <li>
-                                            <div class="case-studies-content">
-                                                <div class="cs-icon pe-icon">
-                                                    <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="cs-content pe-content">
-                                                    Led the UI / frontend group of the project. Provided the group with the new gRPC-based transport for Citi and CI/CD based on Kubernetes and OpenShift. Arranged the creation of report components for brokers including risk management solutions. Supervised 2 direct subordinates.
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="case-studies-content">
-                                                <div class="cs-icon pe-icon">
-                                                    <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="cs-content pe-content">
-                                                    Guided solving complex technical design problems, creation of new solutions using React. Leveraged automation testing methods to increase test coverage and build confidence in Citi's continuous delivery pipeline.
-                                                </div>
-                                            </div>
-                                        </li>
+                                        
                                     </ul>
                                 </div>
                                 <div class="pro-exp-tab-content-footer">
@@ -1297,30 +1108,77 @@
                                                     <img src="asset/img/check.svg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="cs-content pe-content">
-                                                    Managed the development of Investment and Risk projects.
+                                                    Led the frontend department at SM2, overseeing the design and development of user-centric web applications. Implemented modern frontend technologies and best practices, resulting in improved user experiences and increased customer satisfaction.
                                                 </div>
                                             </div>
                                         </li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pro-exp-tab-content-footer">
+                                    <h2 class="roboto">Technology Stack</h2>
+                                    <h6 class="roboto">TypeScript, React, OpenShift, rSocket, gRPC.</h6>
+                                </div>
+                            </div>
+                            <!-- tab single item -->
+
+                            <!-- tab single item -->
+                            <div class="tab-pane fade" id="tab-professional-exp-5" role="tabpanel">
+                                <div class="pro-exp-tab-content-heading-wrapper">
+                                    <div class="pro-exp-tab-content-heading">
+                                        <h2 class="poppins">Software Engineering Manager CitiGroup</h2>
+                                        <h3 class="roboto">Global Investment Bank and Financial Services</h3>
+                                    </div>
+                                    <div class="pro-exp-tab-content-heading-logo">
+                                        <img src="asset/img/Citi.svg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="pro-exp-tab-content-body-wrapper">
+                                    <ul>
                                         <li>
                                             <div class="case-studies-content">
                                                 <div class="cs-icon pe-icon">
                                                     <img src="asset/img/check.svg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="cs-content pe-content">
-                                                    Led the UI / frontend group of the project. Provided the group with the new gRPC-based transport for Citi and CI/CD based on Kubernetes and OpenShift. Arranged the creation of report components for brokers including risk management solutions. Supervised 2 direct subordinates.
+                                                    Played a pivotal role in the development and release of a cloud-based Edge IoT management solution for Fleet Services. As a Technical Team Leader, implemented Scrum ceremonies, provided process guidelines, and prioritized operational tasks based on business needs. Organized regular meetings and established a mentoring system to support team members' growth.
                                                 </div>
                                             </div>
                                         </li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pro-exp-tab-content-footer">
+                                    <h2 class="roboto">Technology Stack</h2>
+                                    <h6 class="roboto">TypeScript, React, OpenShift, rSocket, gRPC.</h6>
+                                </div>
+                            </div>
+                            <!-- tab single item -->
+
+                             <!-- tab single item -->
+                             <div class="tab-pane fade" id="tab-professional-exp-6" role="tabpanel">
+                                <div class="pro-exp-tab-content-heading-wrapper">
+                                    <div class="pro-exp-tab-content-heading">
+                                        <h2 class="poppins">Software Engineering Manager CitiGroup</h2>
+                                        <h3 class="roboto">Global Investment Bank and Financial Services</h3>
+                                    </div>
+                                    <div class="pro-exp-tab-content-heading-logo">
+                                        <img src="asset/img/Citi.svg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="pro-exp-tab-content-body-wrapper">
+                                    <ul>
                                         <li>
                                             <div class="case-studies-content">
                                                 <div class="cs-icon pe-icon">
                                                     <img src="asset/img/check.svg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="cs-content pe-content">
-                                                    Guided solving complex technical design problems, creation of new solutions using React. Leveraged automation testing methods to increase test coverage and build confidence in Citi's continuous delivery pipeline.
+                                                    Directed the development of a fault-tolerant system for an international auto parts manufacturer. Successfully reduced product failures by 80% by modifying the system architecture to enhance development speed and quality.
                                                 </div>
                                             </div>
                                         </li>
+                                        
                                     </ul>
                                 </div>
                                 <div class="pro-exp-tab-content-footer">
@@ -1338,7 +1196,7 @@
     <!-- professional-exp -->
 
     <!-- projects -->
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="container-xxxl">
             <div class="row">
                 <div class="col-md-5 align-self-center">
@@ -1369,8 +1227,8 @@
                         <div class="tab-pane fade show active" id="tab-projects-1" role="tabpanel">
                             <div class="pro-exp-tab-content-heading-wrapper">
                                 <div class="pro-exp-tab-content-heading projects-tab-content-heading">
-                                    <h2 class="poppins">Software Engineering Manager CitiGroup</h2>
-                                    <h3 class="roboto">Global Investment Bank and Financial Services</h3>
+                                    <h2 class="poppins">Aptiv Connected Services</h2>
+                                    <h3 class="roboto">International manufacturer of auto parts</h3>
                                 </div>
                                 <div class="pro-exp-tab-content-heading-logo projects-tab-content-heading-logo">
                                     <img src="asset/img/apiti.svg" class="img-fluid" alt="">
@@ -1384,7 +1242,7 @@
                                                 <img src="asset/img/check.svg" class="img-fluid" alt="">
                                             </div>
                                             <div class="cs-content pe-content">
-                                                Managed the development of Investment and Risk projects.
+                                                Ensured the release of an incremental product – a cloud–based Edge IoT management solution for Fleet Services.
                                             </div>
                                         </div>
                                     </li>
@@ -1394,7 +1252,7 @@
                                                 <img src="asset/img/check.svg" class="img-fluid" alt="">
                                             </div>
                                             <div class="cs-content pe-content">
-                                                Led the UI / frontend group of the project. Provided the group with the new gRPC-based transport for Citi and CI/CD based on Kubernetes and OpenShift. Arranged the creation of report components for brokers including risk management solutions. Supervised 2 direct subordinates.
+                                                As a Technical Team Leader, implemented all Scrum ceremonies, wrote for the team instructions on processes, and prioritized the order of operations, taking into account business needs. Organized regular meetings (individual and group ones), and arranged a mentoring system for team members with an analysis of key growth points.
                                             </div>
                                         </div>
                                     </li>
@@ -1404,7 +1262,7 @@
                                                 <img src="asset/img/check.svg" class="img-fluid" alt="">
                                             </div>
                                             <div class="cs-content pe-content">
-                                                Guided solving complex technical design problems, creation of new solutions using React. Leveraged automation testing methods to increase test coverage and build confidence in Citi's continuous delivery pipeline.
+                                                Organized the creation of a fault-tolerant system and reduced the number of product failures by 80%, by changing the architecture to improve the speed and quality of development.
                                             </div>
                                         </div>
                                     </li>
@@ -1436,30 +1294,11 @@
                                             <img src="asset/img/check.svg" class="img-fluid" alt="">
                                         </div>
                                         <div class="cs-content pe-content">
-                                            Managed the development of Investment and Risk projects.
+                                            Oversaw the creation of a comprehensive eLearning platform for a global audience. Introduced innovative learning features and functionality, enabling seamless online education experiences for users around the world.
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon pe-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content pe-content">
-                                            Led the UI / frontend group of the project. Provided the group with the new gRPC-based transport for Citi and CI/CD based on Kubernetes and OpenShift. Arranged the creation of report components for brokers including risk management solutions. Supervised 2 direct subordinates.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon pe-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content pe-content">
-                                            Guided solving complex technical design problems, creation of new solutions using React. Leveraged automation testing methods to increase test coverage and build confidence in Citi's continuous delivery pipeline.
-                                        </div>
-                                    </div>
-                                </li>
+                                
                             </ul>
                         </div>
                         <div class="pro-exp-tab-content-footer projects-tab-content-footer">
@@ -1487,30 +1326,11 @@
                                             <img src="asset/img/check.svg" class="img-fluid" alt="">
                                         </div>
                                         <div class="cs-content pe-content">
-                                            Managed the development of Investment and Risk projects.
+                                            Played a pivotal role in the development and release of a cloud-based Edge IoT management solution for Fleet Services. As a Technical Team Leader, implemented Scrum ceremonies, provided process guidelines, and prioritized operational tasks based on business needs. Organized regular meetings and established a mentoring system to support team members' growth.
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon pe-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content pe-content">
-                                            Led the UI / frontend group of the project. Provided the group with the new gRPC-based transport for Citi and CI/CD based on Kubernetes and OpenShift. Arranged the creation of report components for brokers including risk management solutions. Supervised 2 direct subordinates.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon pe-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content pe-content">
-                                            Guided solving complex technical design problems, creation of new solutions using React. Leveraged automation testing methods to increase test coverage and build confidence in Citi's continuous delivery pipeline.
-                                        </div>
-                                    </div>
-                                </li>
+                               
                             </ul>
                         </div>
                         <div class="pro-exp-tab-content-footer projects-tab-content-footer">
@@ -1538,30 +1358,11 @@
                                             <img src="asset/img/check.svg" class="img-fluid" alt="">
                                         </div>
                                         <div class="cs-content pe-content">
-                                            Managed the development of Investment and Risk projects.
+                                            Collaborated with an online investment broker to develop a user-friendly, secure, and scalable trading platform. The platform enabled users to access and manage their investment portfolios with ease, providing real-time market data and analytics.
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon pe-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content pe-content">
-                                            Led the UI / frontend group of the project. Provided the group with the new gRPC-based transport for Citi and CI/CD based on Kubernetes and OpenShift. Arranged the creation of report components for brokers including risk management solutions. Supervised 2 direct subordinates.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon pe-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content pe-content">
-                                            Guided solving complex technical design problems, creation of new solutions using React. Leveraged automation testing methods to increase test coverage and build confidence in Citi's continuous delivery pipeline.
-                                        </div>
-                                    </div>
-                                </li>
+                                
                             </ul>
                         </div>
                         <div class="pro-exp-tab-content-footer projects-tab-content-footer">
@@ -1589,30 +1390,11 @@
                                             <img src="asset/img/check.svg" class="img-fluid" alt="">
                                         </div>
                                         <div class="cs-content pe-content">
-                                            Managed the development of Investment and Risk projects.
+                                            Partnered with a computer repair service to create an intuitive, web-based appointment booking system. The platform streamlined the scheduling and management of customer appointments, resulting in increased operational efficiency and customer satisfaction.
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon pe-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content pe-content">
-                                            Led the UI / frontend group of the project. Provided the group with the new gRPC-based transport for Citi and CI/CD based on Kubernetes and OpenShift. Arranged the creation of report components for brokers including risk management solutions. Supervised 2 direct subordinates.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="case-studies-content">
-                                        <div class="cs-icon pe-icon">
-                                            <img src="asset/img/check.svg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="cs-content pe-content">
-                                            Guided solving complex technical design problems, creation of new solutions using React. Leveraged automation testing methods to increase test coverage and build confidence in Citi's continuous delivery pipeline.
-                                        </div>
-                                    </div>
-                                </li>
+                                
                             </ul>
                         </div>
                         <div class="pro-exp-tab-content-footer projects-tab-content-footer">
@@ -1629,7 +1411,7 @@
     <!-- projects -->
 
     <!-- skills -->
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="working-with-edge-wrpper">
             <div class="container-xxxl">
                 <div class="row">
@@ -1668,7 +1450,7 @@
                                         <img src="asset/img/author.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="book-consultation-btn-wrapper">
-                                        <a href="#" class="book-free-consultation-btn roboto">Book a Free Consultation</a>
+                                        <a href="#booking-sec" class="book-free-consultation-btn roboto ">Book a Free Consultation</a>
                                     </div>
                                 </div>
                             </div>
@@ -1685,7 +1467,7 @@
                                         <img src="asset/img/author.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="book-consultation-btn-wrapper">
-                                        <a href="#" class="book-free-consultation-btn roboto">Book a Free Consultation</a>
+                                        <a href="#booking-sec" class="book-free-consultation-btn roboto ">Book a Free Consultation</a>
                                     </div>
                                 </div>
                             </div>
@@ -1702,7 +1484,7 @@
                                         <img src="asset/img/author.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="book-consultation-btn-wrapper">
-                                        <a href="#" class="book-free-consultation-btn roboto">Book a Free Consultation</a>
+                                        <a href="#booking-sec" class="book-free-consultation-btn roboto ">Book a Free Consultation</a>
                                     </div>
                                 </div>
                             </div>
@@ -1719,7 +1501,7 @@
                                         <img src="asset/img/author.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="book-consultation-btn-wrapper">
-                                        <a href="#" class="book-free-consultation-btn roboto">Book a Free Consultation</a>
+                                        <a href="#booking-sec" class="book-free-consultation-btn roboto ">Book a Free Consultation</a>
                                     </div>
                                 </div>
                             </div>
@@ -1736,7 +1518,7 @@
                                         <img src="asset/img/author.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="book-consultation-btn-wrapper">
-                                        <a href="#" class="book-free-consultation-btn roboto">Book a Free Consultation</a>
+                                        <a href="#booking-sec" class="book-free-consultation-btn roboto ">Book a Free Consultation</a>
                                     </div>
                                 </div>
                             </div>
@@ -1753,7 +1535,7 @@
                                         <img src="asset/img/author.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="book-consultation-btn-wrapper">
-                                        <a href="#" class="book-free-consultation-btn roboto">Book a Free Consultation</a>
+                                        <a href="#booking-sec" class="book-free-consultation-btn roboto ">Book a Free Consultation</a>
                                     </div>
                                 </div>
                             </div>
@@ -1777,7 +1559,7 @@
                                 <img src="asset/img/skill1.svg" class="img-fluid" alt="">
                             </div>
                             <div class="skill-box-info">
-                                <h2 class="poppins">Profecient</h2>
+                                <h2 class="poppins">Proficient</h2>
                                 <a class="roboto" href="#">English</a>
                             </div>
                         </div>
@@ -1992,7 +1774,7 @@
     }</script>
     <!-- Calendly badge widget end -->
 
-   <section class="booking-sec">
+   <section class="booking-sec" id="booking-sec">
     <div class="booking-sec-wrapper">
         <div class="container-xxxl">
             <div class="row">
@@ -2037,7 +1819,7 @@
                 <div class="col-md-8">
                     
                     <!-- Calendly inline widget begin -->
-                    <div class="calendly-inline-widget"
+                    <div class="calendly-inline-widget calendy-cus-design"
                          data-url="https://calendly.com/tim-ivaikin/60min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=f4f1ef&text_color=13294b&primary_color=fd2e61"
                          style="min-width:100%;height:705px;border-radius: 28px;"></div>
                     <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
@@ -2089,9 +1871,9 @@
                         <div class="f-edge-links">
                             <h2 class="poppins">Edge</h2>
                             <ul>
-                                <li><a class="roboto href="#">Services</a></li>
-                                <li><a class="roboto href="#">Solutions</a></li>
-                                <li><a class="roboto href="#">Valuable Projects</a></li>
+                                <li><a class="roboto " href="#service">Services</a></li>
+                                <li><a class="roboto " href="#">Solutions</a></li>
+                                <li><a class="roboto " href="#projects">Valuable Projects</a></li>
                             </ul>
                         </div>
                     </div>
@@ -2099,9 +1881,9 @@
                         <div class="f-edge-links">
                             <h2 class="poppins">Resources</h2>
                             <ul>
-                                <li><a class="roboto href="#">Benefits </a></li>
-                                <li><a class="roboto href="#">Experience </a></li>
-                                <li><a class="roboto href="#">Skills</a></li>
+                                <li><a class="roboto " href="#benefit">Benefits </a></li>
+                                <li><a class="roboto " href="#professional-exp">Experience </a></li>
+                                <li><a class="roboto " href="#skills">Skills</a></li>
                             </ul>
                         </div>
                     </div>
@@ -2118,24 +1900,24 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 align-self-center">
+                    <div class="col-md-4 align-self-center order-3 order-md-1">
                         <div class="f-copy">
                             <p class="roboto">Edge © Copyright 2023</p>
                         </div>
                     </div>
-                    <div class="col-md-4 align-self-center">
+                    <div class="col-md-4 align-self-center order-1 order-md-2">
                         <div class="f-logo">
                             <a href="index.html">
                                 <img src="asset/img/f-logo.svg" class="img-fluid" alt="">
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4 align-self-center">
+                    <div class="col-md-4 align-self-center order-2 order-md-3">
                         <div class="f-policy-links">
                             <ul>
-                                <li><a class="roboto" href="#">Privacy Policy</a></li>
+                                <li><a class="roboto" href="https://privacy.edge.ivaikin.com/">Privacy Policy</a></li>
                                 <li><span>|</span></li>
-                                <li><a class="roboto" href="#">Terms of Service</a></li>
+                                <li><a class="roboto" href="https://privacy.edge.ivaikin.com/">Terms of Service</a></li>
                             </ul>
                         </div>
                     </div>
@@ -2149,6 +1931,7 @@
 <!-- <script src="asset/js/script.js?v=1.0.0"></script> -->
 <script src="asset/js/jquery-3.5.1.min.js"></script>
 <script src="asset/js/owl.carousel.min.js"></script>
+<script src="asset/js/wow.min.js"></script>
 <script>
     $(document).ready(function(){
         $(".partner-brand-slider").owlCarousel({
@@ -2159,7 +1942,7 @@
       slideSpeed: 15000,
       responsive:{
         0:{
-            items:3
+            items:4
         },
         600:{
             items:5
@@ -2176,9 +1959,19 @@
       slideSpeed: 15000,
       margin:20
     });
+    $('.menu-nav').click(function (e) {
+      let divCoords = $(e.target.hash).offset();
+      let height = $('nav').height();
+      e.preventDefault();
+      window.scrollTo({
+        left: divCoords.left,
+        top: divCoords.top - (height + 18),
+        behavior: 'smooth'
+      });
+    });
 
-
-
+    //wow.js
+    new WOW().init();
     });
 </script>
 </body>

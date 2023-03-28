@@ -358,10 +358,9 @@
         line-height: 28px;
     }
     .contact-box-2-info a {
-        opacity: 0.6;
         font-size: 16px;
         font-weight: 400;
-        color: #fff;
+        color: #bbc5d6;
     }
     .skill-proficiencies {
         padding-bottom: 0;
@@ -520,6 +519,9 @@
         -o-border-radius: 0 !important;
         height: 540px !important;
     }
+    .service-box-overlay p {
+        font-size: 16px;
+    }
     
 }
 
@@ -564,6 +566,9 @@
         -moz-border-radius: 18px;
         -ms-border-radius: 18px;
         -o-border-radius: 18px;
+    }
+    .service-box-overlay p {
+        font-size: 16px;
     }
     .banner-icon-box h3 {
         font-size: 12px;

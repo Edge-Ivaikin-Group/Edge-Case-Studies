@@ -21,7 +21,7 @@
         line-height: 26px;
     }
     .btn-wrapper a {
-        font-size: 16px;
+        font-size: 13px;
         height: 40px;
         width: 120px;
     }
@@ -548,7 +548,7 @@
         line-height: 26px;
     }
     .btn-wrapper a {
-        font-size: 16px;
+        font-size: 13px;
         height: 40px;
         width: 120px;
     }
@@ -1082,6 +1082,7 @@
         font-size: 16px;
         height: 40px;
         width: 120px;
+        text-align: center;
     }
     .banner-btns {
         justify-content: center;
@@ -1664,6 +1665,13 @@
         .f-copy {
             font-size: 16px;
         }
+        .case-studies-btn {
+            margin-left: 10px;
+        }
+        .btn-wrapper a {
+            font-size: 14px;
+            height: 55px;
+        }
         
 }
 
@@ -1678,6 +1686,10 @@
     .bib-2 {
         right: -6px;
     }
+    .btn-wrapper a {
+        font-size: 18px;
+    }
+    
     ul#myTab-case-studies {
         border: none;
         display: block;

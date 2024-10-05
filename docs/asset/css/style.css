@@ -1223,5 +1223,76 @@ iframe#launcher {
         -moz-transform: translateY(0);
         -ms-transform: translateY(0);
         -o-transform: translateY(0);
+    }
 }
+
+/* Boosted Revenue Section Styles */
+.boosted-revenue {
+    padding: 60px 0; /* Adjust padding as needed */
+}
+
+.boosted-revenue .revenue-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.boosted-revenue .revenue-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.boosted-revenue .key-stats h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.boosted-revenue .key-stats ul {
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.boosted-revenue .key-stats li {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.boosted-revenue .key-stats h4 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.boosted-revenue .testimonial {
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.boosted-revenue .testimonial .blockquote-footer {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Call-to-Action Button Styles */
+.btn-cta-consultation {
+    background-color: #fd2e61; /* Primary color */
+    color: #fff; /* White text */
+    font-size: 18px; /* Font size */
+    font-weight: 600; /* Font weight */
+    padding: 12px 30px; /* Padding */
+    border-radius: 50px; /* Rounded corners */
+    border: none; /* No border */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Hover effect */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Hover Effect */
+.btn-cta-consultation:hover {
+    background-color: #c21e4c; /* Darker on hover */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Focus State for Accessibility */
+.btn-cta-consultation:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(253, 46, 97, 0.5); /* Focus ring */
 }

@@ -1,3 +1,4 @@
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     /*header*/
@@ -5,7 +6,7 @@
         width: 120px;
     }
     .banner-content-plate h1 {
-        font-size: 22px;
+        font-size: 23px;
         text-align: center;
         line-height: 28px;
     }
@@ -16,13 +17,13 @@
     /*header*/
     /*banner*/
     .banner-content-plate p {
-        font-size: 16px;
+        font-size: 17px;
         text-align: center;
         line-height: 26px;
     }
     .btn-wrapper a {
-        font-size: 13px;
-        height: 40px;
+        font-size: 15px;
+        height: 48px;
         width: 120px;
     }
     .banner-btns {
@@ -406,7 +407,7 @@
         -moz-border-radius: 0;
         -ms-border-radius: 0;
         -o-border-radius: 0;
-}
+    }
     .footer-get-in-touch h2 {
         font-size: 16px;
     }
@@ -424,7 +425,7 @@
     .f-edge-links h2, .f-social-links h2 {
         font-size: 16px;
         margin-bottom: 20px;
-        
+
     }
     .f-edge-links ul li a {
         font-size: 16px;
@@ -470,7 +471,7 @@
     }
     .contact-2-wrapper {
         margin-top: 30px;
-        
+
     }
     .footer-wrapper {
         border-radius: 0;
@@ -522,10 +523,10 @@
     .service-box-overlay p {
         font-size: 16px;
     }
-    
+
 }
 
- /* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     /*header*/
     .logo {
@@ -937,7 +938,7 @@
         -moz-border-radius: 0;
         -ms-border-radius: 0;
         -o-border-radius: 0;
-}
+    }
     .footer-get-in-touch h2 {
         font-size: 16px;
     }
@@ -955,7 +956,7 @@
     .f-edge-links h2, .f-social-links h2 {
         font-size: 16px;
         margin-bottom: 20px;
-        
+
     }
     .f-edge-links ul li a {
         font-size: 16px;
@@ -1001,7 +1002,7 @@
     }
     .contact-2-wrapper {
         margin-top: 30px;
-        
+
     }
     .footer-wrapper {
         border-radius: 0;
@@ -1054,7 +1055,7 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
+
     /*header*/
     .logo {
         width: 120px;
@@ -1470,7 +1471,7 @@
     }
     .f-edge-links h2, .f-social-links h2 {
         font-size: 16px;
-        
+
     }
     .f-edge-links ul li a {
         font-size: 16px;
@@ -1499,7 +1500,7 @@
     .skill-language {
         margin-bottom: 30px;
     }
-    
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -1514,7 +1515,7 @@
         font-size: 18px;
     }
     .banner-content-plate h1 {
-    font-size: 45px;
+        font-size: 45px;
     }
     .banner-icon-box {
         width: 210px;
@@ -1617,65 +1618,65 @@
         padding: 20px;
         height: 65px;
     }
-            .contact-box-2 {
-            display: block;
-        }
-        .contact-box-2-info {
-            margin-left: 0;
-        }
-        .contact-box-2-info {
-            margin-left: 0;
-            margin-top: 23px;
-        }
-        .service-2-heading h2 {
-            font-size: 45px;
-            line-height: 60px;
-        }
-        .service-2-single-box h2 {
-            font-size: 22px;
-            line-height: 32px;
-        }
-        .service-2-single-box p {
-            font-size: 16px;
-            line-height: 28px;
-        }
-        .booking-content-plate h2 {
-            font-size: 45px;
-            line-height: 50px;
-        }
-        .f-edge-links h2, .f-social-links h2 {
-            font-size: 16px;
-        }
-        .f-edge-links ul li a {
-            font-size: 16px;
-        }
-        .get-in-content a {
-            font-size: 16px;
-            line-height: 30px;
-        }
-        .f-social-links ul li a img {
-            width: 40px;
-        }
-        .f-social-links ul li a {
-            width: auto;
-        }
-        .f-policy-links ul li a {
-            font-size: 16px;
-        }
-        .f-copy {
-            font-size: 16px;
-        }
-        .case-studies-btn {
-            margin-left: 10px;
-        }
-        .btn-wrapper a {
-            font-size: 14px;
-            height: 55px;
-        }
-        
+    .contact-box-2 {
+        display: block;
+    }
+    .contact-box-2-info {
+        margin-left: 0;
+    }
+    .contact-box-2-info {
+        margin-left: 0;
+        margin-top: 23px;
+    }
+    .service-2-heading h2 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .service-2-single-box h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .service-2-single-box p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .booking-content-plate h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .f-edge-links h2, .f-social-links h2 {
+        font-size: 16px;
+    }
+    .f-edge-links ul li a {
+        font-size: 16px;
+    }
+    .get-in-content a {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .f-social-links ul li a img {
+        width: 40px;
+    }
+    .f-social-links ul li a {
+        width: auto;
+    }
+    .f-policy-links ul li a {
+        font-size: 16px;
+    }
+    .f-copy {
+        font-size: 16px;
+    }
+    .case-studies-btn {
+        margin-left: 10px;
+    }
+    .btn-wrapper a {
+        font-size: 14px;
+        height: 55px;
+    }
+
 }
 
- /* Extra large devices (large desktops, 1200px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
     .logo {
         width: 145px;
@@ -1689,7 +1690,7 @@
     .btn-wrapper a {
         font-size: 18px;
     }
-    
+
     ul#myTab-case-studies {
         border: none;
         display: block;
@@ -1737,6 +1738,6 @@
         font-size: 18px;
     }
 }
- /* Extra large devices (large desktops, 1200px and up) */
- @media (min-width: 1400px) {
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
 }

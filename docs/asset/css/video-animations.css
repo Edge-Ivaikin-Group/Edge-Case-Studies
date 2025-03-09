@@ -1,0 +1,208 @@
+/* Video Animation Styles for Edge Case Studies */
+
+/* Video Container */
+.video-container {
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.video-container video {
+    width: 100%;
+    display: block;
+}
+
+/* Results Container */
+.video-results-container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.video-results-container .results-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Bar Chart Styles */
+.bar-chart-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bar-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.bar-label {
+    width: 30%;
+    font-weight: 500;
+    padding-right: 1rem;
+    text-align: right;
+    color: #555;
+}
+
+.bar {
+    height: 24px;
+    border-radius: 4px;
+    flex-grow: 1;
+    position: relative;
+}
+
+.bar-value {
+    width: 10%;
+    padding-left: 10px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Line Chart Styles */
+.line-chart-container {
+    width: 100%;
+    margin: 1.5rem auto;
+    position: relative;
+    height: 250px;
+}
+
+.svg-container {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.line-label {
+    position: absolute;
+    bottom: -30px;
+    transform: translateX(-50%);
+    font-size: 0.85rem;
+    color: #555;
+    text-align: center;
+}
+
+/* Circle Chart Styles */
+.circle-chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.5rem auto;
+}
+
+.circle-container {
+    text-align: center;
+    width: 120px;
+}
+
+.circle-label {
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+/* A/B Testing Variations */
+.layout-standard .case-study {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.layout-extended .case-study {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    padding: 2rem;
+}
+
+.layout-standard .case-study-title {
+    font-size: 1.5rem;
+}
+
+.layout-extended .case-study-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .bar-label {
+        width: 40%;
+    }
+    
+    .circle-chart-container {
+        gap: 1rem;
+    }
+    
+    .circle-container {
+        width: 100px;
+    }
+    
+    .line-label {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .bar-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .bar-label {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 0.5rem;
+    }
+    
+    .bar {
+        width: 100% !important;
+        margin-bottom: 0.5rem;
+    }
+    
+    .bar-value {
+        width: 100%;
+        text-align: right;
+        padding-left: 0;
+    }
+    
+    .circle-chart-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Animation Effects */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.8s ease forwards;
+}
+
+.animate-slide-up {
+    animation: slideUp 0.8s ease forwards;
+}
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; } 
